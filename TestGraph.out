@@ -1,0 +1,59 @@
+==45651== Memcheck, a memory error detector
+==45651== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==45651== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==45651== Command: ./TestGraph
+==45651==
+--45651-- run: /usr/bin/dsymutil "./TestGraph"
+Running main() from gtest_main.cc
+[==========] Running 10 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 5 tests from TestGraph/0, where TypeParam = boost::adjacency_list<boost::setS, boost::vecS, boost::directedS, boost::no_property, boost::no_property, boost::no_property, boost::listS>
+[ RUN      ] TestGraph/0.test_vertex
+[       OK ] TestGraph/0.test_vertex (55 ms)
+[ RUN      ] TestGraph/0.test_edge
+[       OK ] TestGraph/0.test_edge (71 ms)
+[ RUN      ] TestGraph/0.test_vertices
+[       OK ] TestGraph/0.test_vertices (7 ms)
+[ RUN      ] TestGraph/0.test_edges
+[       OK ] TestGraph/0.test_edges (36 ms)
+[ RUN      ] TestGraph/0.test_adjacent_vertices
+[       OK ] TestGraph/0.test_adjacent_vertices (18 ms)
+[----------] 5 tests from TestGraph/0 (199 ms total)
+
+[----------] 5 tests from TestGraph/1, where TypeParam = Graph
+[ RUN      ] TestGraph/1.test_vertex
+[       OK ] TestGraph/1.test_vertex (10 ms)
+[ RUN      ] TestGraph/1.test_edge
+[       OK ] TestGraph/1.test_edge (12 ms)
+[ RUN      ] TestGraph/1.test_vertices
+[       OK ] TestGraph/1.test_vertices (7 ms)
+[ RUN      ] TestGraph/1.test_edges
+[       OK ] TestGraph/1.test_edges (7 ms)
+[ RUN      ] TestGraph/1.test_adjacent_vertices
+[       OK ] TestGraph/1.test_adjacent_vertices (7 ms)
+[----------] 5 tests from TestGraph/1 (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 2 test cases ran. (280 ms total)
+[  PASSED  ] 10 tests.
+==45651==
+==45651== HEAP SUMMARY:
+==45651==     in use at exit: 26,562 bytes in 199 blocks
+==45651==   total heap usage: 543 allocs, 344 frees, 463,447 bytes allocated
+==45651==
+==45651== LEAK SUMMARY:
+==45651==    definitely lost: 0 bytes in 0 blocks
+==45651==    indirectly lost: 0 bytes in 0 blocks
+==45651==      possibly lost: 2,064 bytes in 1 blocks
+==45651==    still reachable: 0 bytes in 0 blocks
+==45651==         suppressed: 24,498 bytes in 198 blocks
+==45651== Rerun with --leak-check=full to see details of leaked memory
+==45651==
+==45651== For counts of detected and suppressed errors, rerun with: -v
+==45651== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'TestGraph.c++'
+Lines executed:100.00% of 79
+Branches executed:62.79% of 774
+Taken at least once:32.04% of 774
+No calls
+TestGraph.c++:creating 'TestGraph.c++.gcov'
