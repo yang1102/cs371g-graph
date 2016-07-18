@@ -5,11 +5,9 @@ FILES :=                          \
     Graph.log                     \
     html                          \
     TestGraph.c++                 \
-    TestGraph.out
-
-# uncomment these:
-#    graph-tests/EID-TestGraph.c++ \
-#    graph-tests/EID-TestGraph.out \
+    TestGraph.out				  \
+   graph-tests/sy6955-TestGraph.c++ \
+   graph-tests/sy6955-TestGraph.out 
 
 CXXFLAGS := -pedantic -std=c++11 -Wall
 LDFLAGS  := -lgtest -lgtest_main -pthread

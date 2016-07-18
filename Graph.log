@@ -1,0 +1,23 @@
+commit 78cfff4692d5d5e4a264c0b21dc0cc39d88451c1
+Author: Shuoyi Yang <yangshy2012@gmail.com>
+Date:   Mon Jul 18 17:51:04 2016 -0500
+
+    Finish the unit test closes #4
+
+commit 8970c4a19c4282c05f294062d073c70848ec2c16
+Author: Shuoyi Yang <yangshy2012@gmail.com>
+Date:   Mon Jul 18 15:08:52 2016 -0500
+
+    basic implementation
+
+commit 90ee8971fc8c70661032b3221a53374410d7856f
+Author: Shuoyi Yang <yangshy2012@gmail.com>
+Date:   Sun Jul 17 01:39:59 2016 -0500
+
+    Initial commit closes #1
+
+commit 794a02eb6d34026ac52de926df779d9647b6860c
+Author: yang1102 <yangshy2012@gmail.com>
+Date:   Sun Jul 17 01:30:37 2016 -0500
+
+    Initial commit
