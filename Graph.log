@@ -1,3 +1,15 @@
+commit 811ca34216ef3fb7a08cd10757c5c01d9a0e8ee7
+Author: Shuoyi Yang <yangshy2012@gmail.com>
+Date:   Tue Jul 19 17:22:11 2016 -0500
+
+    Format and final push
+
+commit 70f22ea09a44ee2e7574084b74238725e05d4d26
+Author: Shuoyi Yang <yangshy2012@gmail.com>
+Date:   Mon Jul 18 18:10:57 2016 -0500
+
+    Finish up the project closes #6, closes #5, and closes #7
+
 commit 78cfff4692d5d5e4a264c0b21dc0cc39d88451c1
 Author: Shuoyi Yang <yangshy2012@gmail.com>
 Date:   Mon Jul 18 17:51:04 2016 -0500
