@@ -144,3 +144,9 @@ Running main() from gtest_main.cc
 ==10623== 
 ==10623== For counts of detected and suppressed errors, rerun with: -v
 ==10623== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'TestGraph.c++'
+Lines executed:100.00% of 489
+Branches executed:60.52% of 4580
+Taken at least once:30.26% of 4580
+Calls executed:42.43% of 3955
+Creating 'TestGraph.c++.gcov'
