@@ -262,7 +262,7 @@ class Graph {
          */
         bool valid () const {
              
-            return g.size()>=0&&e.size()>=0&&v.size()>=0;}
+            return g.size()==0&&e.size()==0&&v.size()==0;}
 
     public:
         // ------------
